@@ -486,8 +486,21 @@ img {
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 430px) {
   .home__social {
     justify-content: center;
   }
+=======
+
+.skills__name1 {
+  margin-left: 15%;
+}
+
+.skills__names1 {
+  width: 24%;
+}
+svg {
+  margin-left: 3%;
+>>>>>>> 175732c24956ab4e23426270d2581610887f6a5c
 }
