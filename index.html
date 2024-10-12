@@ -44,6 +44,7 @@
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/thiago-bristot-4756932a5/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="https://github.com/ThiagoBristot" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="./assets/curriculo.pdf" class="home__social-icon"><img src="./assets/img/icon-resume.svg" alt="Resume Icon" style="width: 24px; height: 24px; position: relative; top: 3px;"/></a>
                 </div>
 
                 <div class="home__img">
@@ -133,21 +134,36 @@
                     </div>
                 </div>
             </section>
-
             <!--===== WORK =====-->
-            <section class="work section" id="work">
+            <div class="work section" id="work">
                 <h2 class="section-title">Projetos</h2>
 
-                <div class="work__container bd-grid">
-                    <a href="https://github.com/ThiagoBristot/SalvaVisitas" class="work__img">
-                        <img src="assets/img/salvavisitas.png" alt="salvavisitas">
-                    </a>
-                    <a href="https://app-clima-two.vercel.app/" class="work__img">
-                        <img src="assets/img/appclima.png" alt="appclima">
-                    </a>
-                    <a href="https://daledelivery.vercel.app/" class="work__img">
-                        <img src="assets/img/DaleDelivery.png" alt="DaleDelivery">
-                    </a>
+                <section class="work__container bd-grid">
+                    <section class="work_img_div">
+                        <p class="work__img__title">SalvaVisitas</p>
+                        <a href="https://github.com/ThiagoBristot/SalvaVisitas" class="work__img">
+                            <img src="assets/img/salvavisitas.png" alt="salvavisitas">
+                            <span class="work__img__text">Clicke para acessar</span>
+                        </a>
+                        <p class="work__img__desc">Programa desenvolvido para consulta, inserção, modificação e exclusão de um banco de dados em mariaDB via ambiente gráfico (website). Foram utilizadas as linguagens html, css, Javascript e python (Flask) para o desenvolvimento do website e comunicação com o banco de dados.</p>
+                    </section>
+                    <section class="work_img_div">
+                        <p class="work__img__title">appclima</p>
+                        <a href="https://app-clima-two.vercel.app/" class="work__img">
+                            <img src="assets/img/appclima.png" alt="appclima">
+                            <span class="work__img__text">Clicke para acessar</span>
+                        </a>
+                        <p class="work__img__desc">O WeatherApp é um aplicativo de previsão do tempo, desenvolvido com React.js e a API da OpenWeather. Ele permite buscar cidades e exibir informações atualizadas sobre temperatura e condições climáticas, oferecendo uma interface intuitiva e dinâmica.</p>
+                    </section>
+
+                    <section class="work_img_div">                        
+                        <p class="work__img__title">DaleDelivery</p>
+                        <a href="https://daledelivery.vercel.app/" class="work__img">
+                            <img src="assets/img/DaleDelivery.png" alt="DaleDelivery">
+                            <span class="work__img__text">Clicke para acessar</span>
+                        </a>
+                        <p class="work__img__desc">O app de pedidos desenvolvido em React.js visa simplificar e otimizar o processo de gestão de pedidos de uma empresa. Com uma interface dinâmica e moderna, ele permite que os usuários registrem, acompanhem e gerenciem pedidos de forma eficiente, oferecendo uma experiência prática e intuitiva.</p>
+                    </section>
                 </div>
             </section>
         </main>
@@ -155,9 +171,10 @@
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Thiago</p>
-            <div class="footer__social">
+            <div class="footer__social" style="display: flex; align-items: center; justify-content: center; gap: 15px;">
                 <a href="https://www.linkedin.com/in/thiago-bristot-4756932a5/" class="home__social-icon" style="color: white;"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/ThiagoBristot" class="home__social-icon" style="color: white;"><i class='bx bxl-github' ></i></a>
+                <a href="./assets/curriculo.pdf" class="home__social-icon"><img src="./assets/img/icon-resume.svg" alt="Resume Icon" style="width: 24px; height: 24px; position: relative;"/></a>
                 <p style="align-content: center;">thiagobristot01412@gmail.com</p>
             </div>
 
