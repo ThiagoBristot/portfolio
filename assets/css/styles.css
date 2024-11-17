@@ -364,6 +364,7 @@ img {
 
 .work__img__desc {
   margin-top: 3%;
+  text-align: justify;
 }
 
 /* ===== CONTACT =====*/
